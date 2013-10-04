@@ -28,7 +28,7 @@ const (
 )
 
 // Cmd represents service state change request. It is sent to a service
-// by the service manager, and should be actioned upon by the service. 
+// by the service manager, and should be actioned upon by the service.
 type Cmd uint32
 
 const (

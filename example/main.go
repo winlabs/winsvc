@@ -31,7 +31,7 @@ func usage(errmsg string) {
 func main() {
 	const svcName = "myservice"
 
-	isIntSess, err := svc.IsAnIinteractiveSession()
+	isIntSess, err := svc.IsAnInteractiveSession()
 	if err != nil {
 		log.Fatalf("failed to determine if we are running in an interactive session: %v", err)
 	}
