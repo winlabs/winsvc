@@ -5,7 +5,7 @@
 GOOS=windows
 
 # TODO: use $(GOROOT)/src/pkg/syscall/mksyscall_windows.go here instead
-zwinapi.go: event.go eventlog.go registry.go security.go service.go syscall.go
+zwinapi_windows.go: event.go eventlog.go registry.go security.go service.go syscall.go
 	./mksyscall_windows.pl $^ \
 		| gofmt \
 		> $@
