@@ -240,9 +240,6 @@ loop:
 	s.cWaits.Set()
 }
 
-// from sys.c
-func getServiceMain(r *uintptr)
-
 func newCallback(fn interface{}) (cb uintptr, err error) {
 	defer func() {
 		r := recover()
