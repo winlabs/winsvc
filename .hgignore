@@ -8,5 +8,6 @@ _test
 test
 *.exe
 _testmain.go
+*.pyc
 
 syntax:regexp
