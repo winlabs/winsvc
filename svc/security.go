@@ -79,7 +79,7 @@ func IsAnInteractiveSession() (bool, error) {
 		return false, err
 	}
 	p := unsafe.Pointer(&gs.Groups[0])
-	groups := (*[256]syscall.SIDAndAttributes)(p)[:gs.GroupCount]
+	groups := (*[2 << 20]syscall.SIDAndAttributes)(p)[:gs.GroupCount]
 	for _, g := range groups {
 		if winapi.EqualSid(g.Sid, interSid) {
 			return true, nil
