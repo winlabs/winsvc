@@ -9,7 +9,7 @@
 package debug
 
 import (
-	"code.google.com/p/winsvc/svc"
+	"github.com/winlabs/winsvc/svc"
 	"os"
 	"os/signal"
 	"syscall"

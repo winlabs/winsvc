@@ -13,7 +13,7 @@
 package main
 
 import (
-	"code.google.com/p/winsvc/svc"
+	"github.com/winlabs/winsvc/svc"
 	"fmt"
 	"log"
 	"os"

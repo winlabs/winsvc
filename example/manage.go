@@ -7,8 +7,8 @@
 package main
 
 import (
-	"code.google.com/p/winsvc/mgr"
-	"code.google.com/p/winsvc/svc"
+	"github.com/winlabs/winsvc/mgr"
+	"github.com/winlabs/winsvc/svc"
 	"fmt"
 	"time"
 )

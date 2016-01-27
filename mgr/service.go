@@ -7,8 +7,8 @@
 package mgr
 
 import (
-	"code.google.com/p/winsvc/svc"
-	"code.google.com/p/winsvc/winapi"
+	"github.com/winlabs/winsvc/svc"
+	"github.com/winlabs/winsvc/winapi"
 	"syscall"
 )
 

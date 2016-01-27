@@ -7,7 +7,7 @@
 package eventlog_test
 
 import (
-	"code.google.com/p/winsvc/eventlog"
+	"github.com/winlabs/winsvc/eventlog"
 	"testing"
 )
 

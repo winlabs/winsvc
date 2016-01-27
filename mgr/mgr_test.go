@@ -7,7 +7,7 @@
 package mgr_test
 
 import (
-	"code.google.com/p/winsvc/mgr"
+	"github.com/winlabs/winsvc/mgr"
 	"os"
 	"path/filepath"
 	"sort"
